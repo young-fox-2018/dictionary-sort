@@ -17,9 +17,10 @@ function Sort(arr){
    arr[j+1] = angka
  }
  
- return arr
+ return arr.join(",")
 }
 // your code here to initialize the program and take user input
 console.log(Sort(["makan","duduk","tidur","terbang"]))
 console.log(Sort(["anggi","anggo","angga","ani","adi","aries"]))
+
 // module.exports = Dictionary
