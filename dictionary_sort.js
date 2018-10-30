@@ -11,7 +11,7 @@ function Dictionary(arr) {
             }
         }
     }
-    return arr
+    return arr.join(',')
 }
 console.log(Dictionary([5, 3, 2, 4, 1]))
 console.log(Dictionary(['makan', 'duduk', 'tidur', 'terbang']))
