@@ -1,5 +1,5 @@
 // const readline = require('readline');
-const readline = ["makan", "duduk", "tidur", "terbang"];
+const array = ["makan", "duduk", "tidur", "terbang"];
 function kamus(arr) {
     var counter = 0
     while (counter < arr.length) {
@@ -9,17 +9,11 @@ function kamus(arr) {
                 arr[i] = arr[i-1]
                 arr[i-1] = a
             }
-
         }
 
         counter++
     }
     return arr
 }
-console.log(kamus(readline));
-
-
-
-
-
+console.log(kamus(array));
 // module.exports = Dictionary
